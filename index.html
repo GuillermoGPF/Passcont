@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassCont</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="icon" type="text/css" href="./img/favicon.png">
+    <script src="https://kit.fontawesome.com/81c2c05f29.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="home">
+		<div class="row">
+			<div class="col-100">
+				<div id="box1">
+					<img src="./img/pic1.png" class="pic1 img-fluid">
+					<h1>
+						Bienvenido a <span>PassCont</span>
+					</h1>
+					<button id="continue1">
+						Continuar
+					</button>	
+				</div>
+				<div id="box2">
+					<img src="./img/pic2.png">
+					<h3>
+						Por favor, indica tu correo para poder enviarte las contraseñas
+					</h3>
+					<div class="card">
+						<form>
+							<input type="email"
+								   placeholder="Introduce tu email"
+								   name="email"
+								   required 
+								   autofocus>
+							<button id="continue2">
+								Continuar
+							</button>
+						</form>
+					</div>
+				</div>
+				<div id="box3">
+					<h3>
+						Ahora indica las plataformas que tengas, y su color para identificarlas
+					</h3>
+					<div class="card">
+						<form>
+							<div class="flex j-center a-center">
+								<input type="text"
+									   placeholder="Nombre"
+									   required 
+									   autofocus>
+								<button class="color" 
+										id="col1" 
+										onclick="modal1()">
+								</button>
+							</div>
+							<div class="platform flex j-center a-center">
+								<input placeholder="Nombre"
+									   type="text"
+									   required 
+									   autofocus>
+								<button class="color" 
+										id="col2" 
+										onclick="modal2()">
+								</button>
+							</div>
+							<button class="more">
+								<i class="fas fa-plus"></i>
+							</button>
+							<a href="./password.html">
+								Aceptar
+							</a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="overlay" onclick="modal1()"></div>
+    <div class="modal1">
+		<h5>
+		   Selecciona color
+	   </h5>
+	   <div class="container">
+		   <div class="row">
+			   <div class="col">
+				   <div class="card colour colour1"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour2"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour3"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour4"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour5"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour6"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour7"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour8"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour9"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour10"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour11"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour12"></div>
+			   </div>
+		
+			   <button onclick="modal1()">
+					<i class="far fa-thumbs-up"></i>
+				   	Aceptar
+			   </button>
+		   </div>
+	   </div>
+    </div>
+
+    <div class="modal2">
+		<h5>
+		   Selecciona color
+	   </h5>
+	   <div class="container">
+		   <div class="row">
+			   <div class="col">
+				   <div class="card colour colour13"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour14"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour15"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour16"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour17"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour18"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour19"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour20"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour21"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour22"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour23"></div>
+			   </div>
+
+			   <div class="col">
+				   <div class="card colour colour24"></div>
+			   </div>
+		
+			   <button onclick="modal2()">
+					<i class="far fa-thumbs-up"></i>
+				   	Aceptar
+			   </button>
+		   </div>
+	   </div>
+    </div>
+	<hr>
+	<h3>Publicidad</h3>
+	<div class="container">
+		<div class="row">
+			<div class="col-25">
+				<div class="ads ad1"></div>
+			</div>
+			<div class="col-25">
+				<div class="ads ad2"></div>
+			</div>
+			<div class="col-25">
+				<div class="ads ad3"></div>
+			</div>
+			<div class="col-25">
+				<div class="ads ad4"></div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" 
+			integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
+			crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" 
+            integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" 
+            crossorigin="anonymous"></script>
+	<script src="./js/script.js"></script>
+</body>
+</html>
